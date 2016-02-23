@@ -59,12 +59,14 @@ body {
 .footer, .content:after {
 	height: 50px;
 	width: 100%;
-	background: #ffffff;
+	background: none;
+	color: #ffffff;
 }
 .footer {
 	bottom: 0;
 	position: fixed;
-	font-size: 10px;
+	font-family: 'Vollkorn', Georgia, Times, serif;
+	font-size: 12px;
 }
 .content h3 {
 	font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
